@@ -13,6 +13,7 @@
 		A508578F26023247001A4BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A508578D26023247001A4BDD /* Main.storyboard */; };
 		A508579126023249001A4BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A508579026023249001A4BDD /* Assets.xcassets */; };
 		A508579426023249001A4BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A508579226023249001A4BDD /* LaunchScreen.storyboard */; };
+		A508579D2602339C001A4BDD /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A508579C2602339C001A4BDD /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A508579026023249001A4BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A508579326023249001A4BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A508579526023249001A4BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A508579C2602339C001A4BDD /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A508578726023247001A4BDD /* AppDelegate.swift */,
 				A508578926023247001A4BDD /* SceneDelegate.swift */,
+				A508579C2602339C001A4BDD /* SampleData.swift */,
 				A508578B26023247001A4BDD /* ViewController.swift */,
 				A508578D26023247001A4BDD /* Main.storyboard */,
 				A508579026023249001A4BDD /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 				A508578C26023247001A4BDD /* ViewController.swift in Sources */,
 				A508578826023247001A4BDD /* AppDelegate.swift in Sources */,
 				A508578A26023247001A4BDD /* SceneDelegate.swift in Sources */,
+				A508579D2602339C001A4BDD /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
