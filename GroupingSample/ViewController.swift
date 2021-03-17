@@ -51,7 +51,7 @@ extension ViewController: UITableViewDataSource {
     //表示するセクションの個数を返してあげる
     func numberOfSections(in tableView: UITableView) -> Int {
         //グルーピング後の辞書の個数を返す
-        groupingData.count
+        return groupingData.count
     }
     //セクションヘッダーに表示する文字列を返してあげる
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
